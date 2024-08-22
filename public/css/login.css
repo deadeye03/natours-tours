@@ -1,0 +1,136 @@
+.login{
+    /* height: 80vh; */
+    padding: 3rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login__box{
+    width: 80%;
+    /* height: 70vh; */
+    display: flex;
+    position: relative;
+    background-color: #e6e2e2;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.459);
+
+}
+.sign__box{
+    width: 50%;
+    height: 100%;
+}
+.signin{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 6rem;
+    align-items: center;
+    gap: 8px;
+}
+.signin__method{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    align-items: center;
+}
+.signin__method li{
+    padding: 4px;
+    
+}
+.login__option{
+    text-decoration: none;
+}
+.login__logo{
+    height: 24px;
+}
+.signin__form{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 100%;
+    align-items: center;
+
+}
+.signin__form input{
+    font-size: 16px;
+    padding: 1rem;
+    background-color: rgba(74, 73, 73, 0.233);
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.548);
+}
+.signin__form input:focus{
+    outline: none;
+}
+.signin__form input::placeholder{
+    color: rgba(58, 58, 58, 0.468);
+}
+.forgot__passwrord{
+    text-decoration: none;
+    font-size: 16px;
+    color:rgba(0, 0, 0, 0.326);
+    font-weight: 500;
+}
+.forgot__passwrord:hover{
+    color:rgba(0, 0, 0, 0.685);
+    font-weight: 700;
+}
+.submit__btn{
+    box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.361) !important;
+    background-color: orangered !important;
+}
+.signup{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 6rem;
+    align-items: center;
+    gap: 8px;
+}
+.login__bgc{
+    width: 50%;
+    height: 100%;
+    background-image: linear-gradient(to bottom right, rgb(240, 125, 83),orangered);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transition: all .5s ease-out;
+
+}
+.user__meassage{
+    color: white;
+    text-align: center;
+}
+.head-pirmary{
+    font-size: xxx-large;
+    text-shadow:1px 1px 2px #483f3f;
+}
+.message{
+    font-size: large;
+    text-shadow:2px 1px 3px #483f3f96;
+}
+.sign__btn{
+    padding: 13px 5rem;
+    background-color: transparent;
+    border: 2px solid #483f3f;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    box-shadow:  0px 10px 20px #0000004e;
+}
+.sign__btn:hover{
+    transform: translateY(-3px);
+    box-shadow:  2px 15px 20px #0000004e;  
+}
+.sign__btn:active{
+    transform: translateY(-1px);
+    box-shadow:  0px 5px 20px #0000004e;
+}

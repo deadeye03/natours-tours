@@ -1,0 +1,62 @@
+<%- include('head') %>
+    <link rel="stylesheet" href="/css/login.css">
+
+    <body>
+        <%- include('header') %>
+
+            <section class="login">
+                <div class="login__box">
+                    <div class="signin sign__box">
+                        <h1 class="head-secondary head-pirmary">Sign in</h1>
+                        <ul class="signin__method">
+                            <li><a href="#" class="login__option"><img src="/img/login_logo/git.png" alt="logo"
+                                        class="login__logo"></a></li>
+                            <li><a href="#" class="login__option"><img src="/img/login_logo/google.png" alt="logo"
+                                        class="login__logo"></a></li>
+                            <li><a href="#" class="login__option"><img src="/img/login_logo/link.png" alt="logo"
+                                        class="login__logo"></a></li>
+                        </ul>
+                        <p >or use your account</p>
+
+                        <form class="signin__form">
+                            <input type="email" name="mail" id="login_mail" required placeholder="Email">
+                            <input type="password" name="password" id="login_password" required placeholder="Password">
+                            <a href="/forgotPassword" class="forgot__passwrord">Forgot your password<span
+                                    >?</span></a>
+                            <button type="submit" class="sign__btn submit__btn">Sign in</button>
+                        </form>
+                    </div>
+                    <div class="signup sign__box">
+                        <h1 class="head-secondary head-pirmary">Create Account</h1>
+                        <ul class="signin__method">
+                            <li><a href="#" class="login__option"><img src="/img/login_logo/git.png" alt="logo"
+                                        class="login__logo"></a></li>
+                            <li><a href="#" class="login__option"><img src="/img/login_logo/google.png" alt="logo"
+                                        class="login__logo"></a></li>
+                            <li><a href="#" class="login__option"><img src="/img/login_logo/link.png" alt="logo"
+                                        class="login__logo"></a></li>
+                        </ul>
+
+                        <p >or use your email for regestration</p>
+                        <form class="signin__form " id="signUp__form">
+                            <input type="text" name="name" id="name" required placeholder="Name">
+                            <input type="email" name="signUp_mail" id="signUp_mail" required placeholder="Email">
+                            <input type="password" name="signUp_password" id="signUp_password" required placeholder="Password" minlength="8">
+                            <input type="password" name="password" id="password" required
+                                placeholder="Confirm password" minlength="8">
+                            <button type="submit" class="sign__btn submit__btn">Sign up</button>
+                        </form>
+                    </div>
+                    <div class="login__bgc">
+                        <div class="user__meassage">
+                            <h1 class="head-pirmary">Hello , Friend! </h1>
+                            <h4 class="message">Enter your personal details and start<br> journey with us</h4>
+                        </div>
+                        <button class="sign__btn" id="sign__btn">Sign up</button>
+                    </div>
+                </div>
+            </section>
+
+            <%- include('footer') %>
+                <!-- <script src="/js/login.js"></script> -->
+    </body>
